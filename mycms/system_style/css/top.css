@@ -1,0 +1,55 @@
+body {font-family:Verdana;font-size:12px;background:#136A89 url(bg.gif) repeat-x;margin:0;padding:0; border:0;}
+a { text-decoration:none;}
+a:hover { text-decoration:none;}
+.headTable{background:url(../images/top_bg.jpg) no-repeat right top; height:60px; overflow:hidden; border:0;}
+#topline {position:absolute;left:188px;width:auto;height:23px;overflow:hidden;}
+#topmenu {float:right;width:auto;height:23px;text-align:right;margin-top:5px;margin-left:5px;margin-right:5px;}
+div#topmenu, #topmenu a,#topmenu a:hover {color:#dde8f2;}
+#sysAnnounce {float:left;width:450px;color:#fff;}
+#sysAnnounce a{color:#fff;text-decoration:none;}
+#NewAspAnnounce {color:#fff;font-weight:bold;float:left;width:450px;margin-left:3px;}
+.system_logo {width:185px;}
+#system_logo {float:left;text-align:center;width:185px;margin-top:5px;}
+#menuTabs div {margin:0px;padding:0px;}
+#menuTabs {position:absolute;left:188px;top:66px;width:auto;line-height:normal;margin:10px 0 0 0px;}
+#menuTabs ul {margin:0;padding:0px 10px 0 0px ;list-style:none;}
+#menuTabs li {display:inline;margin:0;padding:0;}
+#menuTabs a {float:left;/*background:url(../images/tableft.gif) no-repeat left top;*/margin:0px;padding:0 0 0 4px; margin-left:10px; display:inline;text-decoration:none;}
+#menuTabs a span {float:left;display:block;/*background:url(../images/tabright.gif) no-repeat right top;*/padding:8px 8px 6px 6px;color:#e9f4ff;}
+#menuTabs a span {float:none;}
+#menuTabs a:hover span {color:#fff;}
+#menuTabs a:hover {background-position:0% -46px;}
+#menuTabs a:hover span {background-position:100% -46px;color:#333;}
+ /*new_cms*/
+ @charset "utf-8";
+
+/* global */
+body{ font-family:"微软雅黑";font-size:12px;margin:0;padding:0; border:0;background:#ffffff;color:#000 }
+div,form,ul,ol,li,span,p{ margin:0;padding:0;border:0 }
+img,a img{ margin:0;padding:0;border:0 }
+h1,h2,h3,h4,h5,h6{ margin:0;padding:0; }
+ul,ol,li{ list-style:none }
+
+/* link */
+a { text-decoration:none;color:#333;outline-style:none;}
+a:link   { text-decoration:none;color:#333;}
+a:visited{ text-decoration:none;color:#333;}
+a:hover  { text-decoration:none;color:#e55b31;}
+a:active { text-decoration:none;color:#e55b31;}
+
+/* CSS Document */
+.ileft { width:auto; height:auto;background:#FFF url(../images/ileft_bg.jpg) repeat-x; padding:12px 0 0 0; margin:0;}
+.ileft div { width:auto; height:35px; line-height:35px; background:#f7ebdf; padding:0 0 0 45px; margin:5px 0; font-size:14px;
+font-weight:700; display:block;}
+.ileft .ilt1 {background:#f7ebdf url(../images/ileft_jin.jpg) no-repeat 17px 10px;}
+.ileft .ilt2 {background:#f7ebdf url(../images/ileft_jia.jpg) no-repeat 17px 10px;}
+
+.ileft ul { width:auto; height:auto; line-height:24px; }
+.ileft ul li { width:auto; height:24px; line-height:24px; padding-left:45px; font-size:14px; display:inline-block; }
+
+
+/*yc_add bander*/
+.yc_ban{background:#ed6137; width:100%!important; line-height:16px!important; height:40px; position:absolute!important; left:0px!important; top:60px!important }
+.yc_ban ul{ margin-left:200px!important; padding-top:5px!important;}
+.yc_ban ul li a:hover{ background:#fff url(../images/yc_ban_left.gif) left top no-repeat!important}
+.yc_ban ul li a:hover span{background:#fff url(../images/yc_ban_right.gif) right top no-repeat!important}

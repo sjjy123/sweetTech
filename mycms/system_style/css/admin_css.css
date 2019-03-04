@@ -1,0 +1,74 @@
+
+/*new_cms*/
+@charset "utf-8";
+
+/* global */
+body{ font-family:"微软雅黑";font-size:12px;margin:0;padding:0;background:#ffffff;color:#000 }
+div,form,ul,ol,li,span,p{ margin:0;padding:0;border:0 }
+img,a img{ margin:0;padding:0;border:0 }
+h1,h2,h3,h4,h5,h6{ margin:0;padding:0; }
+ul,ol,li{ list-style:none }
+
+input, select { margin:0 8px 0 0; padding:0; }
+
+.checkbox, .radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(../images/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	background: url(radio.png) no-repeat;
+}
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(select.png) no-repeat;
+	overflow: hidden;
+}
+
+/* link */
+a { text-decoration:none;color:#333;outline-style:none;}
+a:link   { text-decoration:none;color:#333;}
+a:visited{ text-decoration:none;color:#333;}
+a:hover  { text-decoration:none;color:#e55b31;}
+a:active { text-decoration:none;color:#e55b31;}
+
+
+
+
+/* CSS Document */
+body { background:url(../images/login_bg.png);}
+.login_div {
+width:400px;height:430px; margin:150px auto;border:0px;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#a6a6a6,direction=120,strength=1);/*ie*/
+-moz-box-shadow: 2px 2px 10px #a6a6a6;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #a6a6a6;/*safari或chrome*/
+box-shadow:2px 2px 10px #a6a6a6;/*opera或ie9*/
+}
+.top { width:380px; height:54px; padding:15px 10px; background:#fbf8f6 url(../images/login_top_bg.jpg) repeat-x bottom center;}
+.middle { width:248px; height:239px; padding:36px 76px;}
+.bottom { width:400px; height:35px; background:#a9a39f url(../images/bottom.jpg) no-repeat center center;}
+
+.middle input { height:40px; padding-left:56px; margin-bottom:15px; border:0; font-family:"微软雅黑"; font-size:14px; line-height:40px; }
+.uname { width:190px; background:url(../images/username_bg.jpg) no-repeat; color:#aaa;}
+.upswd { width:190px; background:url(../images/password_bg.jpg) no-repeat; color:#aaa;}
+.ucode { width:100px; background:url(../images/code_bg.jpg) no-repeat; color:#aaa;}
+.uname2 { width:190px; background:url(../images/username_bg1.jpg) no-repeat; color:#000;}
+.upswd2 { width:190px; background:url(../images/password_bg1.jpg) no-repeat; color:#000;}
+.ucode2 { width:100px; background:url(../images/code_bg1.jpg) no-repeat; color:#000;}
+
+.loginan { width:247px; height:42px; border:0; background:url(../images/loginan_bg.jpg) no-repeat;}
+.name_on { width:248px; height:20px; border:0; font-family:"微软雅黑"; font-size:13px; color:#666; text-align:left; line-height:20px; margin-bottom:15px;}
+.name_on a { color:#666;}
+.name_on .left { float:left; display:inline-block;}
+.name_on .right { float:right; display:inline-block;}
+
+#login_msg { text-align:center; font-family:"微软雅黑"; font-size:11px; color:#F00;}
